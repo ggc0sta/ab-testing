@@ -33,20 +33,22 @@ The notebook explores the experiment in several stages:
 4. Running a two-proportion z-test to evaluate statistical significance
 5. Estimating a confidence interval for the effect
 6. Quantifying practical impact in terms of retained users
-7. Performing a power analysis to assess whether the sample size was sufficient
+7. Estimating the sample size needed to detect a 1 percentage-point retention change with 80% power
 
 ## Key findings
 
 The treatment group showed a lower 7-day retention rate than the control group.
 
-- Control retention: approximately 18.6%
-- Treatment retention: approximately 17.8%
+- Control retention: approximately 19.0%
+- Treatment retention: approximately 18.2%
 - Absolute effect: roughly -0.82 percentage points
 - Relative decrease: about -4.3%
 
 The two-proportion z-test produced a statistically significant result, suggesting that moving the gate to level 40 reduced retention.
 
-The 95% confidence interval for the treatment effect was negative, indicating that the true effect is likely a decrease rather than an increase.
+The 95% confidence interval for the treatment effect was approximately -1.33 to -0.31 percentage points, indicating that the true effect is likely a decrease rather than an increase.
+
+A planning calculation suggests that roughly 23,685 users per group would be needed to detect a 1 percentage-point change in retention with 80% power at a 5% significance level.
 
 ## Business interpretation
 
