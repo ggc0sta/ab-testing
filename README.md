@@ -13,7 +13,7 @@ The business question is simple: should the game keep the gate at level 30 or mo
 
 ## Dataset
 
-The analysis uses the Cookie Cats dataset from Kaggle, which contains one row per player.
+The analysis uses the public Cookie Cats dataset, accessed via Kaggle (`yufengsui/mobile-games-ab-testing`). The dataset was originally used in DataCamp's A/B testing project and contains one row per player.
 
 Columns include:
 
